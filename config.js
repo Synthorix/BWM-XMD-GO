@@ -355,13 +355,13 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID || '',
+    session: process.env.SESSION_ID || 'Synthorix_vjk5w',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
     GURL: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
-    BOT: process.env.BOT_NAME || 'BMW_MD',
+    OWNER_NAME: process.env.OWNER_NAME || "Synth",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "651103878",
+    BOT: process.env.BOT_NAME || 'NOX',
     BWM_XMD: hybridConfig.buildContentLayer(),
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY: process.env.HEROKU_APY_KEY,
